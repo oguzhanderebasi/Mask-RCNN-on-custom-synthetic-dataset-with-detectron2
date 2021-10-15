@@ -1,0 +1,14 @@
+{
+    "name": "part_train",
+    "json_file": "D:/Mask_RCNN/detectron2/dataset/train.json",
+    "image_root": "D:/Mask_RCNN/detectron2/dataset/train",
+    "evaluator_type": "coco",
+    "thing_classes": [ "damper", "rim", "disk", "tire", "brake" ],
+    "thing_dataset_id_to_contiguous_id": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4
+    }
+}
